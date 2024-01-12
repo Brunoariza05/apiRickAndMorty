@@ -1,0 +1,78 @@
+#favoritos-contenedor {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to bottom,#adec73, #ffffff);
+}
+
+#lista-favoritos-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+
+#trash {
+    margin-bottom: 14vh;
+    font-size: 3vh;
+    margin-left: 2vh;
+}
+
+#trash:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#favoritos-titulo {
+    font-size: 5vh;
+    font-family: amatic sc;
+    font-weight: 1000;
+    background: linear-gradient(to bottom,#adec73, #ffffff);
+    height: 20vh;
+    text-align: center;
+}
+
+#cruz {
+    padding: 1px;
+}
+
+#cruz:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+#aviso-limpieza-personajes {
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.823);
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: amatic sc;
+    font-weight: 1000;
+    font-size: 5vh;
+    position: fixed;
+    bottom: 0;
+}
+
+#aviso-lista-vacia {
+    font-family: amatic sc;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 6vh;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1024px) {
+    #aviso-limpieza-personajes {
+        font-size: 4vh;
+    }
+}

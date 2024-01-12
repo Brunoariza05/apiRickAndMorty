@@ -1,0 +1,18 @@
+#hero-contenedor {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,#adec73, #ffffff);
+}
+
+#hero-titulo { 
+    font-size: 7vh;
+    font-family: amatic sc;
+}
+
+#hero-subtitulo {
+    font-family: dancing script;
+    font-size: 3.5vh;
+}

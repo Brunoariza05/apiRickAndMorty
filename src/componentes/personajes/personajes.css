@@ -1,0 +1,95 @@
+#contenedor-personajes {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#personajes-titulo {
+    height: 20vh;
+    font-size: 6vh;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to bottom,#adec73, #ffffff);
+    font-family: amatic sc;
+    font-weight: 1000;
+    margin: 0vh;
+}
+
+#lista-personajes-contenedor {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#personajes-boton {
+    border-radius: 1vh;
+    background-color: #7bff00;
+    color: black;
+    font-size: 3vh;
+    padding: 2px;
+    font-family: amatic sc;
+    font-weight: 1000;
+    margin: 2vh;
+}
+
+
+#personajes-boton:hover {
+    background-color: #adec73;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.estrella {
+    font-size: 3.5vh;
+}
+
+.estrella:hover {
+    cursor: pointer;
+    scale: 1.2;
+}
+
+#personaje-favorito {
+    width: 100%;
+    background-color: rgba(60, 255, 0, 0.76);
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: amatic sc;
+    font-weight: 1000;
+    font-size: 5vh;
+    position: fixed;
+    bottom: 0;
+}
+
+#personaje-quitado {
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.823);
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: amatic sc;
+    font-weight: 1000;
+    font-size: 5vh;
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1024px) {
+    #personaje-quitado {
+        font-size: 4vh;
+    }
+    #personaje-favorito {
+        font-size: 4vh;
+    }
+}
